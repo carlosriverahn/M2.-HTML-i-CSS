@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Diario Provincial</title>
+
+</head>
+<body>
+   <section id="global">
+       <!-- Encabezado de pagina: Logo, botones de suscripcion y busqueda -->
+        <header class="header">
+            <div  id="logo">
+                <img src="imagens/logo.png" alt="logo">
+            </div>
+            <div id="botons">
+                <input type="button" class="botonsDesign" value="Suscribete" id="suscribe">
+                <input type="button" class="botonsDesign" value="Inicia Sesion" id="login"><br>
+                <input  class="searchDiv" type="text" id="search" placeholder="Busqueda">
+                <input class="searchDiv" type="button" value="Buscar" id="buscar">
+            </div>
+        </header>
+        <!-- Input para menu responsivo -->
+        <input type="checkbox" id="btn-menu">
+        <label id="label-menu" for="btn-menu"><img src="Imagens/btn-menu.png" alt="menu"></label>
+        <!-- Botones de menu principal -->
+        <nav class="menu">
+            <ul>
+                <li><a href="#" >Locales</a></li>
+                <li><a href="#" >Internacionales</a></li>
+                <li><a href="#" >Politica</a></li>
+                <li><a href="#" >Sucesos</a></li>
+                <li><a href="#" >Deportes</a></li>
+            </ul>
+        </nav>
+
+        <!-- Seccion de portada: Links contenedorer con titulo H1, parrafo e imagen -->
+        <section class="coverMain">
+            <article class="cover" id="coverPage">
+                <a href="#">
+                    <h1>COVID-19 - ACTUALIDAD</h1>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita nulla accusantium commodi.<span class="hidden"> Repellendus delectus, quas veritatis dolor nihil cum, commodi quae officiis praesentium perspiciatis corrupti repudiandae eaque obcaecati nisi, vel eius minima iure. Explicabo voluptatem modi at, eligendi possimus fuga rerum vel deleniti.</span></p></a>
+                <a href="#"class="cover"><img src="Imagens/portada.jpg" alt="Portada" srcset=""></a>
+            </article>
+        </section>
+        
+        <!-- Titulos H2 para las secciones de noticias -->
+        <!-- Secciones de noticias: Contenedor semantico de articulo: Link con titulo H3, parrafos e imagen -->
+        <!-- Etiquetas ASIDE para banner publicitarios -->
+        <h2>Noticias Locales</h2>
+        <section class="newsContainer">
+            <article class="news">
+                <a href="#"><img src="Imagens/local1.jpg" alt="Noticias Locales">
+                    <h3>Estadisticas locales COVID-19</h3>
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, voluptate architecto. Nesciunt, qui animi minus maiores ut vel deleniti provident at debitis expedita aspernatur nam fuga corrupti, quam autem dolor.</p></a>
+            </article>
+            <article class="news">                
+                <a href="#"><img src="Imagens/local2.jpg" alt="Noticias Locales">
+                    <h3>Digitalizacion Diario Provincial</h3>
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, voluptate architecto. Nesciunt, qui animi minus maiores ut vel deleniti provident at debitis expedita aspernatur nam fuga corrupti, quam autem dolor.</p></a>
+            </article>
+            <article class="news">              
+                <a href="#"><img src="Imagens/local3.jpg" alt="Noticias Locales">
+                    <h3>Aumentan Estres Familiar</h3>
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, voluptate architecto. Nesciunt, qui animi minus maiores ut vel deleniti provident at debitis expedita aspernatur nam fuga corrupti, quam autem dolor.</p></a>
+            </article>
+        </section>
+        <aside id="banner">
+            <a href="https://breakingbad.fandom.com/es/wiki/Los_Pollos_Hermanos" target = "_blank "class="marketing"><img src="Imagens/Banner1.jpg" alt="Banner"></a>
+        </aside>
+        <h2>Noticias Internacionales</h2>
+        <section class="newsContainer">
+            <article class="news">                
+                <a href="#"><img src="Imagens/inter2.jpg" alt="Internaciones">
+                    <h3>Siguen las Protestas BLACKLIVESMATTERS</h3>
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, voluptate architecto. Nesciunt, qui animi minus maiores ut vel deleniti provident at debitis expedita aspernatur nam fuga corrupti, quam autem dolor.</p></a>
+            </article>
+            <article class="news">                
+                <a href="#"><img src="Imagens/inter1.jpg" alt="Internaciones">
+                    <h3>Represion Policial en Europa</h3>
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, voluptate architecto. Nesciunt, qui animi minus maiores ut vel deleniti provident at debitis expedita aspernatur nam fuga corrupti, quam autem dolor.</p></a>
+            </article>
+            <article class="news">            
+                <a href="#"><img src="Imagens/inter3.jpg" alt="Internaciones">
+                    <h3>Voces unidas por America</h3>
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, voluptate architecto. Nesciunt, qui animi minus maiores ut vel deleniti provident at debitis expedita aspernatur nam fuga corrupti, quam autem dolor.</p></a>
+            </article>
+        </section>
+        <h2>Noticias Politica</h2>
+        <section class="newsContainer">
+            <article class="news">              
+                <a href="#"><img src="Imagens/politic1.jpg" alt="Politica">
+                    <h3>Se acercan las Votaciones</h3>
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, voluptate architecto. Nesciunt, qui animi minus maiores ut vel deleniti provident at debitis expedita aspernatur nam fuga corrupti, quam autem dolor.</p></a>
+            </article>
+            <article class="news">               
+                <a href="#"><img src="Imagens/politic2.jpg" alt="Politica">
+                    <h3>Fraude electoral</h3>
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, voluptate architecto. Nesciunt, qui animi minus maiores ut vel deleniti provident at debitis expedita aspernatur nam fuga corrupti, quam autem dolor.</p></a>
+            </article>
+            <article class="news">               
+                <a href="#"><img src="Imagens/politic3.jpg" alt="Politica">
+                    <h3>Alianza de Partidos politicos</h3>
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, voluptate architecto. Nesciunt, qui animi minus maiores ut vel deleniti provident at debitis expedita aspernatur nam fuga corrupti, quam autem dolor.</p></a>
+            </article>   
+        </section>
+        <aside id="banner">
+            <a href="https://breakingbad.fandom.com/es/wiki/Los_Pollos_Hermanos" target = "_blank "class="marketing"><img src="Imagens/Banner1.jpg" alt="Banner"></a>
+        </aside>
+        <h2>Noticias Sucesos</h2>
+        <section class="newsContainer">
+            <article class="news"><a href="#">
+                <img src="Imagens/event1.jpg" alt="Noticias Locales">
+                <h3>Violencia Intrafamiliar</h3>
+                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, voluptate architecto. Nesciunt, qui animi minus maiores ut vel deleniti provident at debitis expedita aspernatur nam fuga corrupti, quam autem dolor.</p></a>
+            </article>           
+            <article class="news">
+                <a href="#"><img src="Imagens/event2.jpg" alt="Noticias Locales">
+                    <h3>Bares reportan perdidas</h3>
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, voluptate architecto. Nesciunt, qui animi minus maiores ut vel deleniti provident at debitis expedita aspernatur nam fuga corrupti, quam autem dolor.</p></a>
+            </article>
+            <article class="news">              
+                <a href="#"><img src="Imagens/event3.jpg" alt="Noticias Locales">
+                    <h3>Desaparece Famoso Escritor</h3>
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, voluptate architecto. Nesciunt, qui animi minus maiores ut vel deleniti provident at debitis expedita aspernatur nam fuga corrupti, quam autem dolor.</p></a>
+            </article>  
+        </section>
+        <h2>Noticias Deportes</h2><br>
+        <section class="newsContainer">
+            <article class="news">              
+                <a href="#"><img src="Imagens/sport1.jpg" alt="Noticias Locales">
+                    <h3>Siguen las Transmision VIVO</h3>
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, voluptate architecto. Nesciunt, qui animi minus maiores ut vel deleniti provident at debitis expedita aspernatur nam fuga corrupti, quam autem dolor.</p></a>
+            </article>
+            <article class="news">               
+                <a href="#"><img src="Imagens/sport2.jpg" alt="Noticias Locales">
+                    <h3>Nuevo Campeon de Boxeo</h3>
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, voluptate architecto. Nesciunt, qui animi minus maiores ut vel deleniti provident at debitis expedita aspernatur nam fuga corrupti, quam autem dolor.</p></a>
+            </article>
+            <article class="news">          
+                <a href="#"><img src="Imagens/sport3.jpg" alt="Noticias Locales">
+                    <h3>Mas deporte Infantil</h3>
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, voluptate architecto. Nesciunt, qui animi minus maiores ut vel deleniti provident at debitis expedita aspernatur nam fuga corrupti, quam autem dolor.</p></a>
+            </article>           
+        </section>
+        <aside id="banner">
+            <a href="https://breakingbad.fandom.com/es/wiki/Los_Pollos_Hermanos" target = "_blank "class="marketing"><img src="Imagens/Banner1.jpg" alt="Banner"></a>
+        </aside> 
+        <!-- Etiqueta de FOOTER -->
+        <footer id="footer">
+            <ul>
+                <li><a href="#">Quienes somos</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Aviso Legal</a></li>
+                <li><a href="#">Ayuda</a></li>
+            </ul>
+        </footer>
+    </section>
+    </body>
+</html>
